@@ -1,7 +1,6 @@
 @props(['book'])
 
 @php
-// hai aku icha
     // Ketebalan dipetakan berdasarkan jumlah halaman
     $widthClass = 'w-8';
     if ($book->pages > 400) {
@@ -21,6 +20,7 @@
          style="background-color: {{ $genreColor }};">
         <span class="text-white font-bold text-xs tracking-wider writing-mode-vertical truncate rotate-180">
             {{ $book->title }}
+            //ichaaaa
         </span>
     </div>
 </a>
